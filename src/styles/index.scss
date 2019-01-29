@@ -1,0 +1,61 @@
+@import "./bootstrap.scss";
+
+.top-ten-events {
+  @import "./utils/variable";
+  @import "./utils/mixin";
+
+  @import "./header.scss";
+  @import "./boxCircle.scss";
+  @import "./box.scss";
+  @import "./footer.scss";
+  font-family: "Segoe UI";
+  .container-background {
+    background: $light-blue-background;
+    padding-top: 40px;
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  .row {
+    padding: 0 50px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .white-header {
+    width: 100%;
+
+    text-align: center;
+    font-weight: bold;
+    color: $white-color;
+    font-size: $medium-title;
+  }
+  .black-header {
+    color: $black-color;
+    font-size: $medium-title;
+    font-weight: bold;
+  }
+  .blue-text {
+    color: $blue-color;
+  }
+
+  .bg-blue {
+    background-color: $blue-background;
+  }
+  .bg-green {
+    background-color: $green-background;
+  }
+  .bg-middle-blue {
+    background-color: $middle-blue-background;
+  }
+  .bg-yellow {
+    background-color: $yellow-background;
+  }
+}

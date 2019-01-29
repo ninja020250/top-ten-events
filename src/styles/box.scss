@@ -1,0 +1,264 @@
+.orange-linear {
+  background-image: linear-gradient(to right, $orange-left, $orange-right);
+}
+
+.pink-linear {
+  background-image: linear-gradient(to right, $pink-left, $pink-right);
+}
+
+.purple-linear {
+  background-image: linear-gradient(to right, $purple-left, $purple-right);
+}
+
+.green-linear {
+  background-image: linear-gradient(to right, $green-left, $green-right);
+}
+.border-horizontal {
+  border-right: 2px solid $white-color;
+  border-left: 2px solid $white-color;
+}
+
+.border-horizontal-yellow {
+  border-right: 2px solid $deep-orange;
+  border-left: 2px solid $deep-orange;
+}
+.box-1 {
+  .card-body {
+    padding-bottom: $padding-vertical;
+    h5 {
+      padding: 0 $padding-horizontal;
+    }
+  }
+}
+.box-1-element {
+  > .content {
+    text-align: center;
+    height: 168px;
+    .content-child {
+      color: $white-color;
+      width: 100%;
+      font-size: $medium-title;
+    }
+  }
+  > .image {
+    text-align: center;
+    padding-bottom: 24px;
+  }
+}
+
+// box 2
+
+.box-2 {
+  .content {
+    padding-left: 30px;
+    .content-text {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-size: $medium-title;
+      color: $white-color;
+    }
+  }
+}
+
+//box 3
+
+.box-3 {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .icon-cranes {
+    margin: auto;
+    height: 110px;
+    width: 128px;
+  }
+  .content {
+    padding: 15px 0;
+    text-align: center;
+    font-size: $small-title;
+    color: $white-color;
+    .content-child {
+      width: 100%;
+    }
+  }
+  .image-list {
+    .image-list-child {
+      padding-top: 21px;
+    }
+  }
+}
+// box-4
+.box-4 {
+  .content {
+    padding-left: 30px;
+  }
+  .content-2 {
+    margin-top: 32px;
+  }
+  .card-title-2 {
+    height: 186px;
+  }
+  .banner-1 {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .card-title-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-title-2 {
+    color: $black-color;
+    font-size: 38px;
+  }
+}
+// box 5
+
+.box-5 {
+  .content {
+    padding-left: 30px;
+    .content-text {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-size: $small-title;
+      color: $white-color;
+    }
+    .content-image {
+      width: 410px;
+      height: 236px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.box-6 {
+  .content {
+    .content-image {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 317px;
+      height: 160px;
+    }
+    .content-text {
+      font-size: 35px;
+      color: $white-color;
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// box 7
+//DG
+.DG {
+  font-weight: bold;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $medium-title;
+  color: $white-color;
+  width: 216px;
+  height: 88px;
+  margin-top: 35px;
+}
+.box-7 {
+  .card-body {
+    padding-bottom: 75px;
+  }
+}
+
+//box 8
+
+.box-8 {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .content {
+    padding-left: 30px;
+    .content-child-first {
+      font-size: 35px !important;
+    }
+    .content-child {
+      text-align: center;
+      font-weight: bold;
+      color: $black-color;
+      font-size: $medium-title;
+    }
+  }
+  .content-2 {
+    padding-left: 30px;
+    margin-top: 25px;
+  }
+}
+
+//box 9
+.box-9 {
+  .image-list {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .image-list-child {
+      padding-top: 21px;
+    }
+  }
+}
+.activity {
+  .number {
+    font-weight: bold;
+  }
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: $white-color;
+  width: 476px;
+  height: 74px;
+  margin-top: 35px;
+}
+
+//box-10
+
+.box-10 {
+  .content {
+    color: $white-color;
+    font-size: $medium-title;
+    margin-top: 72px;
+    .box-10-content-title {
+      padding: 0 30px;
+    }
+    .box-10-content-list {
+      padding: 8px 60px;
+    }
+    ul {
+      list-style-type: none;
+      li:before {
+        content: "✓";
+        padding-right: 15px;
+      }
+    }
+  }
+  .image-list {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .image-list-child {
+      padding-top: 21px;
+    }
+  }
+}
