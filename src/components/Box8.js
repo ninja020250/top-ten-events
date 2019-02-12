@@ -14,7 +14,7 @@ export default class Box8 extends Component {
         </div>
         <div className={`card-body ${this.props.bgColor}`}>
           <div className="row content">
-            <div className="col-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <div className="content-child content-child-first">
                 <span className="blue-text">New Technology Day</span>
                 <br />
@@ -23,14 +23,14 @@ export default class Box8 extends Component {
                 solutions focus
               </div>
             </div>
-            <div className="col-4 border-horizontal-yellow">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 border-horizontal-yellow">
               <div className="content-child centering">
                 38
                 <br />
                 products
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <div className="content-child centering">
                 550
                 <br />
@@ -39,17 +39,17 @@ export default class Box8 extends Component {
             </div>
           </div>
           <div className="row content-2">
-            <div className="col-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <div className="image">
                 <img src={images[0]} alt="" />
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <div className="image">
                 <img src={images[1]} alt="" />
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <div className="image">
                 <img src={images[2]} alt="" />
               </div>

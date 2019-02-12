@@ -11,8 +11,8 @@ export default class Box1 extends Component {
           <span className="circle">{this.props.title}</span>
         </div>
         <div className={`card-body ${this.props.bgColor}`}>
-          <div className="row">
-            <div className="col-4">
+          <div className="row ">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <Box1Element
                 content1="Reached"
                 content2="2.400"
@@ -24,7 +24,7 @@ export default class Box1 extends Component {
                 isborder=""
               />
             </div>
-            <div className="col-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <Box1Element
                 content1="Business"
                 content2="growth"
@@ -36,7 +36,7 @@ export default class Box1 extends Component {
                 isborder="border-horizontal"
               />
             </div>
-            <div className="col-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <Box1Element
                 content1="First Client"
                 content2="from"

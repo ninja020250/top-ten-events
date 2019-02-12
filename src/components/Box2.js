@@ -11,10 +11,10 @@ export default class Box2 extends Component {
         <div className={`card-body ${this.props.bgColor}`}>
           <h5 className="card-title header white-header">{this.props.contentTitle}</h5>
           <div className="row content">
-            <div className="content-text col-4">
+            <div className="content-text col-sm-12 col-md-4 col-lg-4 col-xl-4">
               Expand <br /> ASEAN <br /> market
             </div>
-            <div className="content-image col-8">
+            <div className="content-image col-sm-12 col-md-8 col-lg-8 col-xl-8">
               <img src={image} alt="" />
             </div>
           </div>

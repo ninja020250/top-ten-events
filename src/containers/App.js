@@ -21,13 +21,13 @@ class App extends Component {
           <div>
             <Header />
           </div>
-          <div className="row">
-            <div className="box-1 col-12">
+          <div className="row ">
+            <div className=" col-12">
               <Box1 title="#1" bgColor="bg-blue" />
             </div>
           </div>
           <div className="row">
-            <div className="col-8">
+            <div className="col-sm-12 col-md-12 col-lg-8 col-xl-8">
               <Box2
                 title="#2"
                 contentTitle="Established TMAsia in Singapore"
@@ -36,7 +36,7 @@ class App extends Component {
 
               <Box4 title="#4" bgColor="bg-yellow" />
             </div>
-            <div className="box-3 col-4">
+            <div className="box-3 col-sm-12 col-md-12 col-lg-4 col-xl-4">
               <Box3
                 title="#3"
                 bgColor="bg-middle-blue"
@@ -44,7 +44,7 @@ class App extends Component {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="row ">
             <div className="box-5 col-12">
               <Box5
                 title="#5"
@@ -53,15 +53,15 @@ class App extends Component {
               />
             </div>
           </div>
-          <div className="row">
-            <div className="box-6 col-6">
+          <div className="row ">
+            <div className=" col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Box6
                 title="#6"
                 contentTitle="Established TMA DevOps Service Center"
                 bgColor="bg-green"
               />
             </div>
-            <div className="box-7 col-6">
+            <div className=" col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Box7
                 title="#7"
                 contentTitle="Applied new management model"
@@ -69,20 +69,20 @@ class App extends Component {
               />
             </div>
           </div>
-          <div className="row">
+          <div className="row ">
             <div className="box-8 col-12">
               <Box8 title="#8" bgColor="bg-yellow" />
             </div>
           </div>
-          <div className="row">
-            <div className="box-9 col-6">
+          <div className="row ">
+            <div className=" col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Box9
                 title="#9"
                 contentTitle="Effective Student Development Program"
                 bgColor="bg-blue"
               />
             </div>
-            <div className="box-10 col-6">
+            <div className=" col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Box10 title="#10" bgColor="bg-middle-blue" />
             </div>
           </div>

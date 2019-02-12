@@ -8,6 +8,7 @@
   @import "./boxCircle.scss";
   @import "./box.scss";
   @import "./footer.scss";
+  @import "./boxMobile.scss";
   font-family: "Segoe UI";
   .container-background {
     background: $light-blue-background;
@@ -57,5 +58,38 @@
   }
   .bg-yellow {
     background-color: $yellow-background;
+  }
+
+}
+@media screen and (max-width: 992px) {
+  .top-ten-events {
+   
+    
+    .row {
+      padding: 0 15px;
+    }
+    .white-header {
+      font-size: $medium-title-mobile;
+    }
+    .black-header {
+      font-size: $medium-title-mobile;
+    }
+    .blue-text {
+      color: $blue-color;
+    }
+  
+    .bg-blue {
+      background-color: $blue-background;
+    }
+    .bg-green {
+      background-color: $green-background;
+    }
+    .bg-middle-blue {
+      background-color: $middle-blue-background;
+    }
+    .bg-yellow {
+      background-color: $yellow-background;
+    }
+  
   }
 }

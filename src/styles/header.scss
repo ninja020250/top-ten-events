@@ -1,20 +1,44 @@
-.top-ten-header{
-    display: flex;
-    justify-content: space-between;
-    img{
-        width: 100%;
-        height: 100%;
+.top-ten-header {
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .tma-logo {
+    width: 178px;
+    height: 82px;
+  }
+  .top-ten-logo {
+    width: 457px;
+    height: 170px;
+  }
+  .anniversary-logo {
+    width: 300px;
+    height: 161px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .top-ten-header {
+    padding: 0 50px !important;
+
+    .tma-logo {
+      width: 60px;
+      height: 27px;
     }
-    .tma-logo{
-width: 178px;
-height: 82px;
+    .top-ten-logo {
+      position: absolute;
+
+      left: 50%;
+      transform: translate(-50%, 50%);
+      min-width: 304px;
+      min-height: 113px;
+      width: 24vw;
+      height: 10vw;
     }
-    .top-ten-logo{
-        width: 457px;
-        height: 170px;
+    .anniversary-logo {
+      width: 89px;
+      height: 41px;
     }
-    .anniversary-logo{
-        width: 300px;
-        height: 161px;
-    }
+  }
 }

@@ -46,9 +46,13 @@
   }
 }
 
+//end box - 1//
 // box 2
 
 .box-2 {
+  .card-body{
+    padding-bottom: 82px;
+  }
   .content {
     padding-left: 30px;
     .content-text {
@@ -57,6 +61,10 @@
       align-items: center;
       font-size: $medium-title;
       color: $white-color;
+    }
+    img{
+      width: 100%;
+      height: 100%;
     }
   }
 }
@@ -90,6 +98,9 @@
 }
 // box-4
 .box-4 {
+  padding: 0 15px;
+  position: absolute;
+  bottom: 0;
   .content {
     padding-left: 30px;
   }
@@ -97,7 +108,7 @@
     margin-top: 32px;
   }
   .card-title-2 {
-    height: 186px;
+ //   height: 186px;
   }
   .banner-1 {
     img {
@@ -139,6 +150,7 @@
 }
 
 .box-6 {
+  height: 100%;
   .content {
     .content-image {
       margin-right: auto;
@@ -167,13 +179,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: $medium-title;
+  // font-size: $medium-title;
+  font-size: 2.5vw;
   color: $white-color;
-  width: 216px;
+  // width: 216px;
+  width: 11vw;
   height: 88px;
   margin-top: 35px;
 }
 .box-7 {
+  height: 100%;
   .card-body {
     padding-bottom: 75px;
   }
@@ -206,7 +221,10 @@
 
 //box 9
 .box-9 {
+  height: 100%;
+
   .image-list {
+    bottom: 20px;
     img {
       width: 100%;
       height: 100%;
@@ -217,6 +235,8 @@
   }
 }
 .activity {
+  margin-left: auto;
+  margin-right: auto;
   .number {
     font-weight: bold;
   }
@@ -224,9 +244,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 2.3vw;
   color: $white-color;
-  width: 476px;
+  width: 26vw;
   height: 74px;
   margin-top: 35px;
 }
@@ -234,15 +254,20 @@
 //box-10
 
 .box-10 {
+  .card-body .row{
+     padding: 0 0px !important;
+  }
+  height: 100%;
   .content {
+    justify-content: center;
     color: $white-color;
     font-size: $medium-title;
-    margin-top: 72px;
+    margin-top: 30px;
     .box-10-content-title {
       padding: 0 30px;
     }
     .box-10-content-list {
-      padding: 8px 60px;
+  
     }
     ul {
       list-style-type: none;
@@ -253,6 +278,8 @@
     }
   }
   .image-list {
+    position: absolute;
+    bottom: 20px;
     img {
       width: 100%;
       height: 100%;
@@ -262,3 +289,4 @@
     }
   }
 }
+

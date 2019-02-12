@@ -35,3 +35,23 @@
   //  @include box-content($blue-background, auto);
   }
 }
+
+@media screen and (max-width: 992px) {
+  .box-circle {
+    .circle {
+      justify-content: center;
+      font-size: $big-title-mobile;
+      width: 80px;
+      height: 80px;
+      //centering
+      transform: translate(-50%, -10%);
+    }
+    .card-body {
+      padding-top: $padding-vertical-mobile;
+      border-top-left-radius: unset;
+      border-bottom-right-radius: unset;
+      border-radius: 15px;
+    //  @include box-content($blue-background, auto);
+    }
+  }
+}

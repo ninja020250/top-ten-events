@@ -7,13 +7,13 @@ export default class Header extends Component {
   render() {
     return (
       <div className="row top-ten-header">
-        <div className="tma-logo">
+        <div className="tma-logo  ">
           <img src={tmaLogo} alt="" />
         </div>
-        <div className="top-ten-logo">
+        <div className="top-ten-logo ">
           <img src={eventLogo} alt="" />
         </div>
-        <div className="anniversary-logo">
+        <div className="anniversary-logo ">
           <img src={unniversaryLogo} alt="" />
         </div>
       </div>

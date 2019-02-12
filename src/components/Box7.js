@@ -13,16 +13,16 @@ export default class Box7 extends Component {
             {this.props.contentTitle}
           </h5>
           <div className="row content">
-            <div className="col-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <DG title="DG1" linearColor="orange-linear" />
             </div>
-            <div className="col-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <DG title="DG2" linearColor="pink-linear" />
             </div>
-            <div className="col-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <DG title="DG3" linearColor="purple-linear" />
             </div>
-            <div className="col-6">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <DG title="DG4" linearColor="green-linear" />
             </div>
           </div>
